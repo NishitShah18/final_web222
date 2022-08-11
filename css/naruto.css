@@ -13,7 +13,7 @@ img {
     margin-right: auto;
     width: 50%;
     border-radius: 50%;
-    box-shadow: 1px 1px 2px #4fe042, 0 0 25px #4fe042, 0 0 5px #4fe042;
+    box-shadow: 1px 1px 2px #093065, 0 0 25px #093065, 0 0 5px #093065;
 }
 
 .imgg {
@@ -29,29 +29,77 @@ img {
 }
 
 #me {
-    background-color: #3C82E7;
+    background: linear-gradient(#124382, #28e2ff);
     border-radius: 25px;
-    box-shadow: 1px 1px 2px #4fe042, 0 0 25px #4fe042, 0 0 5px #4fe042;
+    box-shadow: 1px 1px 2px #093065, 0 0 25px #093065, 0 0 5px #093065;
     max-width: 1024px;
     margin: 20px auto 50px;
     padding: 50px;
 }
 
 #about-me {
-    background-color: #dfdfdf;
+    background: #c0c0c0;
     border-radius: 25px;
-    box-shadow: 1px 1px 2px #4fe042, 0 0 25px #4fe042, 0 0 5px #4fe042;
+    box-shadow: 1px 1px 2px #093065, 0 0 25px #093065, 0 0 5px #093065;
     max-width: 1024px;
     margin: 20px auto 50px;
     padding: 40px;
 }
 
 #education {
+    background-color: #c0c0c0;
     margin: 20px auto 30px;
     display: table;
     width: 100%;
     border-radius: 25px;
-    box-shadow: 1px 1px 2px #4fe042, 0 0 25px #4fe042, 0 0 5px #4fe042;
+    box-shadow: 1px 1px 2px #093065, 0 0 25px #093065, 0 0 5px #093065;
+}
+
+#contact {
+    color: white;
+    background: linear-gradient(#002a61, #28e2ff);
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px #093065, 0 0 25px #093065, 0 0 5px #093065;
+    max-width: 1024px;
+    margin: 20px auto 50px;
+    padding: 40px;
+    text-align: center;
+}
+
+#input {
+    width: 100%;
+    max-width: 450px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #c0c0c0;
+    color: #093065;
+    font-size: 16px;
+    letter-spacing: 1px;
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: -5px;
+    font-weight: 700;
+}
+
+.input {
+    width: 100%;
+    max-width: 450px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #c0c0c0;
+    color: #093065;
+    font-size: 16px;
+    letter-spacing: 1px;
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: -5px;
+    font-weight: 700;
+}
+
+#addLiveOthers {
+    display: none;
 }
 
 .table-row {
@@ -78,7 +126,7 @@ img {
 
 .table-cell1 {
     border: 1px solid;
-    background-color: #3C82E7;
+    background: linear-gradient(#124382, #28e2ff);
     border-radius: 25px 0 0 25px;
     display: table-cell;
     text-align: center;
@@ -87,7 +135,7 @@ img {
 
 .table-cell2 {
     border: 1px solid;
-    background-color: #dfdfdf;
+    background-color: #c0c0c0;
     border-radius: 0px 25px 25px 0px;
     display: table-cell;
     padding: 2px;
@@ -335,4 +383,9 @@ a {
     font-family: helvetica;
     text-decoration: none;
     color: #bf25bf;
+}
+
+.right-label {
+    color: #ffffff;
+    font-weight: 700;
 }

@@ -23,8 +23,20 @@
     <title>Nishit Shah PORTFOLIO</title>
     <link rel="stylesheet" href="./css/naruto.css" type="text/css" />
 
-    <style>
-    </style>
+    <script type="text/javascript">
+
+        function hireWage() {
+            var wage = document.getElementById('hourly_wage');
+
+            if (document.getElementById('hiring').checked) {
+                wage.style.display = 'inline';
+            }
+            else {
+                wage.style.display = 'none';
+            }
+        }
+
+    </script>
 </head>
 
 <body>
@@ -39,7 +51,7 @@
             <span class="button-link" style="font-size: 150%; font-weight: 700;">RESUME</b></span>
         </a>
         <p></p>
-        <a href="#contact" title="contact">
+        <a href="#contact-me-ns" title="contact">
             <span class="button-link" style="font-size: 150%; font-weight: 700;">Contact Me</b></span>
         </a>
     </div>
@@ -124,7 +136,7 @@
         <div class="table-row">
             <div class="table-cell1">
                 <span class="centered-element">
-                    <b style="color: white;">2022 - 2024</b> <b>(expected)</b>
+                    <b style="color: white;">2022 - 2024 (expected)</b>
                     <br><br>
                     <b style="color: white; font-size: larger;">Advanced Diploma</b>
                 </span>
@@ -148,6 +160,49 @@
                 </span>
             </div>
         </div>
+    </div>
+    <h3 id="contact-me-ns" style="color: #093065;">Contact Me</h3>
+    <div id="contact">
+        <form action="https://httpbin.org/post" method="POST">
+            <label for="Name" class="right-label">: Name :</label><br>
+            <input type="text" id="input" name="Name" required />
+            <br><br>
+            <label for="Email" class="right-label">: Email :</label><br>
+            <input type="email" id="input" name="Email" required />
+            <br><br>
+            <label for="Address" class="right-label">: Address :</label><br>
+            <input type="text" id="input" name="Address" required />
+            <br><br>
+            <label for="City" class="right-label">: City :</label><br>
+            <input type="text" id="input" name="City" list="canadian_cities" required />
+            <datalist id="canadian_cities">
+                <option value="Toronto"> </option>
+                <option value="Ottawa"> </option>
+                <option value="Quebec"> </option>
+                <option value="Montreal"> </option>
+                <option value="Vancouver"> </option>
+            </datalist>
+            <br><br>
+            <label for="PostalCode" class="right-label">: Postal Code :</label><br>
+            <input type="text" id="input" name="PostalCode" pattern="^[A-Za-z]\d[A-Za-z]+\s+\d[A-Za-z]\d$" required />
+            <br><br>
+            <label class="right-label">What is this about?</label><br>
+            ''''''''''''''''''''''''''''''''''''''''''''''''<br>
+            <input type="radio" id="comment" name="about?" value="Comment" onclick="hireWage()" checked />
+            <label for="comment" style="color: black;">COMMENT</label>
+            <input type="radio" id="question" name="about?" value="Question" style="margin-top: 10px;"
+                onclick="hireWage()" />
+            <label for="question" style="color: black;">QUESTION</label>
+            <input type="radio" id="hiring" name="about?" value="Hiring" onclick="hireWage()" />
+            <label for="hiring" style="color: black;">HIRING</label><br><br>
+
+            <textarea id="input" style="height: 100px; margin-top: -10px;" name="Comment/Question" form="contact"
+                placeholder="COMMENT OR QUESTION"></textarea><br><br>
+            <input type="number" id="hourly_wage" class="input" name="Wage" placeholder="HOURLY WAGE"
+                pattern="/[1-9]\d{1,8}\.\d{2}/" style="display: none; height: 30px; margin-bottom: 25px;" />
+
+            <input class="button-link" type="submit" style="font-size: 150%; font-weight: 700;" value="SUBMIT" />
+        </form>
     </div>
 </body>
 
