@@ -43,7 +43,7 @@ img {
     box-shadow: 1px 1px 2px #093065, 0 0 25px #093065, 0 0 5px #093065;
     max-width: 1024px;
     margin: 20px auto 50px;
-    padding: 40px;
+    padding: 0 40px 40px 40px;
 }
 
 #education {
