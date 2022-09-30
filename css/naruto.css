@@ -26,7 +26,7 @@ img {
     margin-right: auto;
     width: 50%;
     border-radius: 50%;
-    box-shadow: 1px 1px 2px #093065, 0 0 25px #093065, 0 0 5px #093065;
+    box-shadow: 1px 1px 2px #757574, 0 0 25px #757574, 0 0 5px #757574;
 }
 
 .imgg {
@@ -42,37 +42,37 @@ img {
 }
 
 #me {
-    background: linear-gradient(#124382, #28e2ff);
+    background: #302f2f;
     border-radius: 25px;
-    box-shadow: 1px 1px 2px #093065, 0 0 25px #093065, 0 0 5px #093065;
+    box-shadow: 1px 1px 2px #757574, 0 0 25px #757574, 0 0 5px #757574;
     max-width: 1024px;
     margin: 20px auto 50px;
     padding: 50px;
 }
 
 #about-me {
-    background: #c0c0c0;
+    background: #302f2f;
     border-radius: 25px;
-    box-shadow: 1px 1px 2px #093065, 0 0 25px #093065, 0 0 5px #093065;
+    box-shadow: 1px 1px 2px #757574, 0 0 25px #757574, 0 0 5px #757574;
     max-width: 1024px;
     margin: 20px auto 50px;
     padding: 0 40px 40px 40px;
 }
 
 #education {
-    background-color: #c0c0c0;
+    background-color: #302f2f;
     margin: 20px auto 30px;
     display: table;
     width: 100%;
     border-radius: 25px;
-    box-shadow: 1px 1px 2px #093065, 0 0 25px #093065, 0 0 5px #093065;
+    box-shadow: 1px 1px 2px #757574, 0 0 25px #757574, 0 0 5px #757574;
 }
 
 #contact {
     color: white;
-    background: linear-gradient(#002a61, #28e2ff);
+    background: #302f2f;
     border-radius: 25px;
-    box-shadow: 1px 1px 2px #093065, 0 0 25px #093065, 0 0 5px #093065;
+    box-shadow: 1px 1px 2px #757574, 0 0 25px #757574, 0 0 5px #757574;
     max-width: 1024px;
     margin: 20px auto 50px;
     padding: 40px;
@@ -86,7 +86,7 @@ img {
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #c0c0c0;
-    color: #093065;
+    color: #757574;
     font-size: 16px;
     letter-spacing: 1px;
     height: 30px;
@@ -102,7 +102,7 @@ img {
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #c0c0c0;
-    color: #093065;
+    color: #757574;
     font-size: 16px;
     letter-spacing: 1px;
     height: 30px;
@@ -139,7 +139,7 @@ img {
 
 .table-cell1 {
     border: 1px solid;
-    background: linear-gradient(#124382, #28e2ff);
+    background: #302f2f;
     border-radius: 25px 0 0 25px;
     display: table-cell;
     text-align: center;
@@ -148,7 +148,7 @@ img {
 
 .table-cell2 {
     border: 1px solid;
-    background-color: #c0c0c0;
+    background-color: #302f2f;
     border-radius: 0px 25px 25px 0px;
     display: table-cell;
     padding: 2px;
@@ -161,7 +161,8 @@ body {
     margin: 0 auto;
     padding: 30px;
     margin: auto;
-    background-color: #bf25bf;
+    background-color: #535353;
+    color: rgb(164, 160, 159);
 }
 
 .flex-container {
@@ -183,10 +184,10 @@ body {
     font-weight: 700;
     appearance: none;
     background-color: transparent;
-    border: 2px solid #1A1A1A;
+    border: 2px solid #17bd5c;
     border-radius: 15px;
     box-sizing: border-box;
-    color: #000000;
+    color: #17bd5c;
     cursor: pointer;
     display: inline-block;
     font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -217,7 +218,8 @@ body {
     font-weight: 700;
     color: #fff;
     background-color: #1A1A1A;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    border: 2px solid #1A1A1A;
+    box-shadow: rgba(52, 155, 20, 0.25) 0 8px 15px;
     transform: translateY(-2px);
 }
 
@@ -303,7 +305,7 @@ html {
 }
 
 b {
-    color: #093065;
+    color: #17bd5c;
 }
 
 @media (max-width: 684px) {
@@ -350,7 +352,7 @@ h3 {
 
 h4 {
     font-size: 1.5em;
-    color: #093065;
+    color: #17bd5c;
 }
 
 h5 {
@@ -395,7 +397,7 @@ blockquote p {
 a {
     font-family: helvetica;
     text-decoration: none;
-    color: #bf25bf;
+    color: rgb(214, 38, 38);
 }
 
 .right-label {
